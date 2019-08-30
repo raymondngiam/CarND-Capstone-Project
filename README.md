@@ -98,7 +98,6 @@ The hyperparameters used during training is as follows:
 |L2 weight regularization |   5e-2      |
 |Dropout rate             |   0.7       |
 |Learning rate            |   5e-4      |
-|Batch Size               |   20        |
 
 Validation classification rate of 100% is achieved at epoch 40.
 
