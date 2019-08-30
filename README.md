@@ -150,20 +150,30 @@ docker run -p 4567:4567 -v $PWD:/capstone -v /tmp/log:/root/.ros/ --rm -it capst
 
 1. Clone the project repository
 ```bash
-git clone https://github.com/udacity/CarND-Capstone.git
+git clone https://github.com/raymondngiam/CarND-Capstone-Project.git
 ```
 
 2. Install python dependencies
 ```bash
-cd CarND-Capstone
+cd CarND-Capstone-Project
 pip install -r requirements.txt
 ```
-3. Make and run styx
+
+3. Download the [model zip file](https://drive.google.com/file/d/1QntEAxthZX0p2z1F-59aSy_fQorn8fVd/view?usp=sharing), extract the 4 files into the following paths:
+```
+CarND-Capstone-Project/model/checkpoint
+CarND-Capstone-Project/model/model.ckpt.data-00000-of-00001
+CarND-Capstone-Project/model/model.ckpt.index
+CarND-Capstone-Project/model/model.ckpt.meta
+```
+
+4. Make and run styx
 ```bash
 cd ros
 catkin_make
 source devel/setup.sh
 roslaunch launch/styx.launch
 ```
-4. Run the simulator
+
+5. Run the simulator
 
