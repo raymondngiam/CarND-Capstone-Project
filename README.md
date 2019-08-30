@@ -33,7 +33,7 @@ Sample images of the 3 classes is as shown below
 
 The TensorBoard visualization of the model is as shown below:
 
-<img src="./imgs/graph_run=(1).png" width="640">
+<img src="./imgs/graph_run=.png" width="640">
 
 Each convolutional layer is using kernel size of `5x5` with `same padding`. And each pooling layer is using `max pooling` with kernel size of `2x2` and stride of `2`.
 
