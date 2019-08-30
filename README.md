@@ -9,7 +9,7 @@ This is the Capstone for Udacity's Self Driving Car Nanodegree. The objective is
 
 ### Video Demo
 
-<img src="./imgs/demo.gif" width="640">
+<img src="./imgs/demo.gif" width="720">
 
 ---
 
@@ -17,7 +17,7 @@ This is the Capstone for Udacity's Self Driving Car Nanodegree. The objective is
 
 Shown below is a system architecture diagram showing the ROS nodes and topics used in the project.
 
-<img src="./imgs/final-project-ros-graph-v2.png" width="640">
+<img src="./imgs/final-project-ros-graph-v2.png" width="720">
 
 ---
 
@@ -29,11 +29,11 @@ A convolutional neural network (CNN) model is used for the classification of tra
 
 Sample images of the 3 classes is as shown below
 
-<img src="./imgs/traffic_samples.png" width="640">
+<img src="./imgs/traffic_samples.png" width="720">
 
 The TensorBoard visualization of the model is as shown below:
 
-<img src="./imgs/graph_run=.png" width="640">
+<img src="./imgs/graph_run=.png" width="720">
 
 Each convolutional layer is using kernel size of `5x5` with `same padding`. And each pooling layer is using `max pooling` with kernel size of `2x2` and stride of `2`.
 
