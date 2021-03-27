@@ -9,7 +9,7 @@ This is the Capstone for Udacity's Self Driving Car Nanodegree. The objective is
 
 ### Video Demo
 
-<img src="./imgs/demo.gif" width="720">
+<img src="./imgs/demo.gif" width="840">
 
 ---
 
